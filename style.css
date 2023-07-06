@@ -1,0 +1,49 @@
+
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  
+
+  .logo {
+    
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 60%;
+    padding: 10px;
+    
+  }
+ 
+
+  li {
+    margin-right: 40px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+  
+  a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+ 
+  
