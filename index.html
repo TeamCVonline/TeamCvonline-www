@@ -9,22 +9,310 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
-    
+<body style="background-color: rgb(46, 149, 218);">
+
     <nav>
         <img src="assets/img/logo.png" alt="Logo da Empresa" class="logo">
         <ul>
-            <li><a href="#"><img height="18px" src="assets/img/home.png" alt="home"> </a></li>
-            <li><a href="#">Elias</a></li>
-            <li><a href="#">Flávia</a></li>
-            <li><a href="#">Gabriel</a></li>
-            <li><a href="#">Jean</a></li>
+            <li><a href="index.html"><img height="18px" src="assets/img/home.png" alt="home"> </a></li>
+            <li><a onclick="eric()">Eric</a></li>
+            <li><a onclick="elias()">Elias</a></li>
+            <li><a onclick="flavia()">Flávia</a></li>
+            <li><a onclick="gabriel()">Gabriel</a></li>
+            <li><a onclick="jean()">Jean</a></li>
+
         </ul>
     </nav>
+    <div id="principal">
+        <div class="txt_pgInicial">Seja bem-vindo ao nosso site dedicado aos currículos da nossa equipe que estão
+            participando do curso da Escola da Nuvem! Aqui você
+            encontrará informações valiosas sobre os membros da nossa equipe e seus perfis profissionais.</div>
 
-   
+
+        <div class="txt_pgInicial_aws">Através da AWS Cloud, estamos aprendendo a desenvolver e implementar soluções
+            inovadoras para uma ampla gama de desafios tecnológicos. Nossos currículos destacam os projetos que cada
+            membro da equipe está realizando durante o curso, mostrando suas conquistas e conhecimentos
+            técnicos em áreas como computação em nuvem, segurança, escalabilidade e muito mais.</div>
+
+
+        <img src="assets/img/logo_escola.jpg" class="img_escola">
+
+
+        <img src="assets/img/aws_logo_two.png" class="img_aws">
+    </div>
+
+
+    <div style="display: none;" id="cv_gabriel">
+
+        <div class="txt_cv_gabriel">
+            <h4>Sobre mim:</h4> <br>
+
+            Sou um profissional formado em Análise e Desenvolvimento de Sistemas, apaixonado pelo mundo da
+            tecnologia e suas constantes inovações. Com uma sólida base acadêmica e uma paixão pela aprendizagem
+            contínua,
+            estou determinado a seguir uma carreira que me permita crescer e evoluir junto com uma organização, tenho
+            como objetivo aplicar
+            os conhecimentos adquiridos na faculdade, tanto em termos de habilidades técnicas quanto de soft skills.
+            <br><br><br>
+
+            <h4>Licenças e certificados</h4>
+
+            <p>Certificação Amazon AWS Cloud Practitioner Foundational 2023</p>
+            <p>JAVA OO: Entendendo a orientação a objetos</p>
+            <p>JAVA E JAVA.LANG: Programe com a classe Objetc e String</p>
+            <p>SQL COM MYSQL: Manipule e consulte dados</p> <br><br><br>
+
+            <h4>Experiência</h4>
+
+            <p>Estágio Banco Safra <br> Desenvolvedor de back end <br>
+                dez de 2021 - o momento · 1 ano 8 meses
+            </p> <br>
+            <p></p>
+
+        </div>
+
+        <img src="assets/img/img_gabriel.jpg" class="img_cv_gabriel">
+
+    </div>
+
+
+    <div style="display: none;" id="cv_flavia">
+
+        <div class="txt_cv_flavia">
+            <h4>Sobre mim:</h4> <br>
+
+            Graduada em Processamento de Dados e com Pós-graduação em Gestão de Recursos Humanos, atuei
+            por 9 anos como empreendedora e em áreas administrativas. Por questões pessoais e de mudanças
+            constantes com a família, fiquei fora do mercado de trabalho por um tempo, para cuidar dos filhos.
+            Em 2016 retornei ao mercado na área comercial, adquirindo experiência em atendimento a clientes e
+            vendas de produtos e imóveis. A partir de 2022 iniciei um processo de atualização e transição de
+            carreira, retornando para minha área de origem, tecnologia da informação, quando comecei por uma
+            Academia SAP/ABAP. Nesse momento estou cursando a segunda graduação em Análise e
+            Desenvolvimento de Sistemas e me atualizando em AWS Cloud, onde busco conhecer, aprender a
+            implementar estratégias de migração e aplicações para Cloud, visando a redução de custos e
+            aumento de desempenho, para isso almejo uma oportunidade para atuar na área de TI, com foco em
+            Cloud. Sou comprometida, dinâmica e procuro sempre aprender.
+            <br><br><br>
+
+            <h4>Licenças e certificados</h4>
+
+            <p>Fundamentos de AWS Cloud, Escola da Nuvem – 2023</p>
+            <p>Academia SAP ABAP - KaSolution - 2022</p>
+
+            <br><br>
+            <h4>Experiência</h4>
+
+            <p>Cargo – Consultora ABAP - Trainee <br> Generation Informática Ltda <br>
+                - 01/2023 até o momento
+            </p> <br>
+
+            <p>Cargo – Vendedora (Franqueada)
+                <br> Bioflora <br>
+                - 11/2021 até o momento
+            </p> <br>
+
+            <p>Cargo – Consultora em Transação Imobiliária (Vendas)
+                <br> Roca Imóveis <br>
+                - 09/2019 até 10/2022
+            </p> <br>
+
+            <p>Cargo – Auxiliar Administrativo Senior (Concursada Prefeitura de São Carlos)
+                <br> Cartório Eleitoral <br>
+                - 02/2000 até 09/2005
+            </p> <br>
+
+        </div>
+
+        <img src="assets/img/img_flavia.jpeg" class="img_cv_gabriel">
+
+    </div>
+
+
+    <div style="display: none;" id="cv_jean">
+
+        <div class="txt_cv_jean">
+            <h4>Sobre mim:</h4> <br>
+            Nunca trabalhei atuando como desenvolvedor Back-End e estagiário sendo assim estou buscando uma nova
+            oportunidade no mercado de trabalho.
+            Minhas habilidades incluem: Java, Spring, AWS Cloud, Python, UI/UX.
+
+
+            <br><br><br>
+
+            <h4>Licenças e certificados</h4>
+
+            <p>DevSuperior - Text BoxText BoxSemana Spring React SDS 4.0 Semana Spring React SDS 6.0 </p>
+            <p>Anhanguera Educacional - Tecnólogo em Análise e Desenvolvimento de Sistemas Niterói, Rio de Janeiro,
+                Brasil </p>
+            <p>SENAI - Técnico em Informática </p>
+            <p>Escola da Nuvem - Formação Cloud Practitioner </p> <br><br><br>
+
+            <h4>Experiência</h4>
+
+            <p>Freelancer, Rio de Janeiro <br>Desenvolvedor Back-End <br>
+                3 anos - Presente
+            </p> <br>
+            <p></p>
+
+        </div>
+
+        <img src="assets/img/img_jean.jpeg" class="img_cv_gabriel">
+
+    </div>
+
+
+    <div style="display: none;" id="cv_elias">
+
+        <div class="txt_cv_elias">
+            <h4>Sobre mim:</h4> <br>
+            Formado em Ciência da Computação, e atuando atualmente como Desenvolvedor Mobile. Acredito que a evolução
+            acontece na vidas de pessoas que sonham e buscam realizar seus sonhos de forma gradual.
+
+
+            <br><br><br>
+
+            <h4>Licenças e certificados</h4>
+
+            <p>Santander Bootcamp Mobile Developer </p>
+            <p>Universidade de Salvador - Bacharelado em Ciência da computação, Tecnologia da informação. </p>
+
+
+            <h4>Experiência</h4>
+
+            <p>BRANEF Innovation & Technology <br>Analista de Sistemas<br>
+                1 ano e 10 meses
+            </p> <br>
+            <p></p>
+
+        </div>
+
+        <img src="assets/img/img_elias.jpg" class="img_cv_gabriel">
+
+    </div>
+
+
+    <div style="display: none;" id="cv_eric">
+
+        <div class="txt_cv_eric">
+            <h4>Sobre mim:</h4> <br>
+
+            Desde criança sou fascinado por tecnologia. Buscando sempre se manter atualizado com as mais recentes
+            inovações em
+            diversas áreas. Mesmo que naquela época eu não pudesse comprar os mais recentes gadgets disponíveis, sempre
+            achei
+            fascinante que soluções simples podem ter um enorme impacto na vida das pessoas.
+            À medida que cresci e amadureci, minha paixão por essa área só aumentou. Passei muito tempo aprendendo e
+            pesquisando
+            várias tecnologias. Até que, aos 33 anos, mesmo depois de constituir minha família, e com uma carreira
+            consolidada na
+            área de automação bancária, tomei uma das decisões mais importantes da minha vida - me matriculei no meu
+            primeiro
+            curso de programação de computadores (Bootcamp).
+            Meu primeiro trabalho na área de TI foi como suporte na área de manutenção de caixas eletrônicos.
+            Trabalhando em
+            contato direto com os clientes, ajudando, resolvendo problemas, aprendendo com suas necessidades do dia a
+            dia.
+
+            <br><br><br>
+
+            <h4>Licenças e certificados</h4>
+
+            <p>Graduação - Analise e Desenvolvimento de Banco de Dados</p>
+            <p>Sistemas da Informação, Universidade Uninove
+                Interrompido</p>
+            <p>Formação superior (cursando)</p>
+            <p>Fundamentos de C#, Balta.IO
+            </p>
+            <p>Pensamento Computacional, Digital Innovation One</p>
+            <p>Estrutura de Dados e Algoritmos, Digital Innovation One</p>
+            <p>Lógica de Programação Essencial, Digital Innovation One</p><br><br><br>
+
+            <h4>Experiência</h4>
+
+            <p>Tecnologia Bancária S/A
+                <br> Técnico de Manutenção<br>
+                - Agosto/2020 a Janeiro/2022
+            </p> <br>
+
+            <p>Procisa do Brasil
+                <br> Técnico Instalações<br>
+                desde Julho/2017
+            </p> <br>
+
+            <p>Tecnologia Bancária SA
+                <br>Represente Comercial -<br>
+                - Dezembro/2015 a Dezembro/2016
+            </p> <br>
+
+
+            <p>Tecnologia Bancária SA
+                <br>Assistente de Operações -<br>
+                - Outubro/2012 a Dezembro/2015
+            </p> <br>
+        </div>
+
+        <img src="assets/img/img_eric.jpg" class="img_cv_gabriel">
+
+    </div>
+
 
 
 </body>
+
+
+
+<script>
+
+    function eric() {
+
+        cv_eric.style.display = "block"
+        cv_flavia.style.display = "none"
+        cv_gabriel.style.display = "none"
+        principal.style.display = "none"
+        cv_jean.style.display = "none"
+        cv_elias.style.display = "none"
+    }
+
+
+    function elias() {
+        
+        cv_elias.style.display = "block"
+        cv_flavia.style.display = "none"
+        cv_gabriel.style.display = "none"
+        principal.style.display = "none"
+        cv_jean.style.display = "none"
+        cv_eric.style.display = "none"
+    }
+
+    function flavia() {
+        cv_flavia.style.display = "block"
+        cv_gabriel.style.display = "none"
+        principal.style.display = "none"
+        cv_jean.style.display = "none"
+        cv_elias.style.display = "none"
+        cv_eric.style.display = "none"
+
+    }
+
+    function gabriel() {
+
+        cv_gabriel.style.display = "block"
+        principal.style.display = "none"
+        cv_jean.style.display = "none"
+        cv_flavia.style.display = "none"
+        cv_elias.style.display = "none"
+        cv_eric.style.display = "none"
+    }
+
+    function jean() {
+        cv_jean.style.display = "block"
+        principal.style.display = "none"
+        cv_gabriel.style.display = "none"
+        cv_flavia.style.display = "none"
+        cv_elias.style.display = "none"
+        cv_eric.style.display = "none"
+
+    }
+</script>
 
 </html>
